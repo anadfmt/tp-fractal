@@ -1,4 +1,32 @@
 .a-button--primary {
-    font-family: var(--fontFamilyTitle);
-    color: var(--colorText);
+    font-family: var(--fontFamilyBody);
+    font-size: var(--fontSizeButton);
+    background-color: var(--colorBlue);
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 32px;
+    font-weight: var(--fontWeightBold);
+    cursor: pointer;
+
+    &:hover {
+        background-color: #11B0B3;
+    }
+}
+
+.a-button--secondary {
+    font-family: var(--fontFamilyBody);
+    font-size: var(--fontSizeButton);
+    background-color: #ffffff;
+    color: var(--colorPink);
+    border: 1px solid var(--colorPink);
+    border-radius: 3px;
+    padding: 10px 32px;
+    font-weight: var(--fontWeightBold);
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--colorPink);
+        color: #ffffff;
+    }
 }
