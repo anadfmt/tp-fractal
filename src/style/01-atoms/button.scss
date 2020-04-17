@@ -1,3 +1,4 @@
 .a-button--primary {
-    font-family: var--fontFamilyBody;
+    font-family: var(--fontFamilyTitle);
+    color: var(--colorText);
 }

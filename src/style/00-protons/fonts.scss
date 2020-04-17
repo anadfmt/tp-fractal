@@ -1,23 +1,21 @@
 @mixin font($font-family, $file-path, $font-weight, $font-style) {
   @font-face {
     font-family: $font-family;
-    src: url('#{$file-path}.otf') format('otf'),
-    url('#{$file-path}.otf') format('otf'),
-    url('#{$file-path}.ttf') format('ttf'),
+    src:
     url('#{$file-path}.ttf') format('ttf');
     font-weight: $font-weight;
     font-style: $font-style;
   }
 }
 
-@include font('SF UI Display', '../../src/assets/fonts/SFUIDisplay/SF-UI-Display-Regular', 400, normal);
-@include font('SF UI Display', '../../src/assets/fonts/SFUIDisplay/sf-ui-display-bold-58646a511e3d9', 900, normal);
+@include font('SF UI Display', '../../src/assets/fonts/SFUIDisplay/SFUIDisplay-Regular', 400, normal);
+@include font('SF UI Display', '../../src/assets/fonts/SFUIDisplay/SFUIDisplay-Bold', 900, normal);
 @include font('Playfair Display', '../../src/assets/fonts/PlayfairDisplay/PlayfairDisplay-Regular', 400, normal);
 @include font('Playfair Display', '../../src/assets/fonts/PlayfairDisplay/PlayfairDisplay-Bold', 900, normal);
 
 :root {
   --fontFamilyTitle: "Playfair Display"; 
-  --fontFamilyBody: "SF UI Display";
+  --fontFamilyBody: "SF UI Display", serif;
 
   --fontSizeH1: 42px;
   --fontSizeH2: 32px;
