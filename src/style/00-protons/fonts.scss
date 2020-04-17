@@ -1,33 +1,34 @@
 @mixin font($font-family, $file-path, $font-weight, $font-style) {
   @font-face {
     font-family: $font-family;
-    src: url('#{$file-path}.woff2') format('woff2'),
-      url('#{$file-path}.woff') format('woff');
+    src: url('#{$file-path}.otf') format('otf'),
+    url('#{$file-path}.otf') format('otf'),
+    url('#{$file-path}.ttf') format('ttf'),
+    url('#{$file-path}.ttf') format('ttf');
     font-weight: $font-weight;
     font-style: $font-style;
   }
 }
 
-@include font('Oswald', '../assets/fonts/Oswald/Oswald-Regular', 400, normal);
-@include font('Oswald', '../assets/fonts/Oswald/Oswald-Light', 300, normal);
-@include font('Roboto', '../assets/fonts/Roboto/Roboto-Regular', 400, normal);
-@include font('Roboto', '../assets/fonts/Roboto/Roboto-Bold', 900, normal);
-@include font('Roboto', '../assets/fonts/Roboto/Roboto-Italic', 400, italic);
+@include font('SF UI Display', '../../src/assets/fonts/SFUIDisplay/SF-UI-Display-Regular', 400, normal);
+@include font('SF UI Display', '../../src/assets/fonts/SFUIDisplay/sf-ui-display-bold-58646a511e3d9', 900, normal);
+@include font('Playfair Display', '../../src/assets/fonts/PlayfairDisplay/PlayfairDisplay-Regular', 400, normal);
+@include font('Playfair Display', '../../src/assets/fonts/PlayfairDisplay/PlayfairDisplay-Bold', 900, normal);
 
 :root {
-  --fontFamilyTitle: Oswald, sans-serif;
-  --fontFamilyMain: Roboto, sans-serif;
-  --fontFamilyCode: monospace;
+  --fontFamilyTitle: "Playfair Display"; 
+  --fontFamilyBody: "SF UI Display";
 
-  --fontSizeXXL: 80px;
-  --fontSizeXL: 32px;
-  --fontSizeL: 24px;
-  --fontSizeM: 18px;
-  --fontSizeS: 14px;
+  --fontSizeH1: 42px;
+  --fontSizeH2: 32px;
+  --fontSizeH3: 28px;
+  --fontSizeBody: 24px;
+  --fontSizeInput: 18px;
+  --fontSizeFooter: 16px;
+  --fontSizeButton: 16px;
 
-  --fontWeightBold: 900;
-  --fontWeightThin: 300;
+  --fontWeightBold: bold;
 
-  --lineHeightMain: 1.5;
-  --lineHeightLarge: 2;
+  --lineHeightMain: 36px;
+  --lineHeightH1: 90px;
 }
