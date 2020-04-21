@@ -1,6 +1,6 @@
 .a-navItem {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000; // remettre en blanc
     font-size: var(--fontSizeNav);
     font-family: var(--fontFamilyBody);
 
@@ -11,4 +11,10 @@
 
 .a-navItem--list {
     list-style: none;
+    padding-top: 16px;
+}
+
+.m-navPart {
+    display: flex;
+    justify-content: space-between;
 }
