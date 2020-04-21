@@ -1,8 +1,8 @@
 .a-button--primary {
+    // forme bouton
     font-family: var(--fontFamilyBody);
     font-size: var(--fontSizeButton);
     background-color: var(--colorBlue);
-    color: #ffffff;
     border: none;
     border-radius: 3px;
     padding: 10px 32px;
@@ -14,11 +14,15 @@
     }
 }
 
+.a-button--primary__link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .a-button--secondary {
     font-family: var(--fontFamilyBody);
     font-size: var(--fontSizeButton);
     background-color: #ffffff;
-    color: var(--colorPink);
     border: 1px solid var(--colorPink);
     border-radius: 3px;
     padding: 10px 32px;
@@ -27,6 +31,14 @@
 
     &:hover {
         background-color: var(--colorPink);
+    }
+}
+
+.a-button--secondary__link {
+    text-decoration: none;
+    color: var(--colorPink);
+
+    &:hover {
         color: #ffffff;
     }
 }
