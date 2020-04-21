@@ -1,3 +1,10 @@
 .m-image-legend {
-    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+}
+
+.m-image-legend--espace {
+    margin-top: 28px;
 }
