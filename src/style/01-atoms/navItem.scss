@@ -1,0 +1,14 @@
+.a-navItem {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: var(--fontSizeNav);
+    font-family: var(--fontFamilyBody);
+
+    &:hover {
+        color: var(--colorBlue);
+    }
+}
+
+.a-navItem--list {
+    list-style: none;
+}
