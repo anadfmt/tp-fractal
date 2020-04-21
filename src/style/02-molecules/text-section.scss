@@ -1,0 +1,13 @@
+.m-text-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.m-text-section__separation {
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.m-text-section__violet > p {
+    color: var(--colorPurple);
+}
