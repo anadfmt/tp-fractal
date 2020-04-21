@@ -1,0 +1,16 @@
+.m-corner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.m-corner--content {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    text-align: left;
+}
+
+.m-corner--image {
+    width: 40%;
+}
