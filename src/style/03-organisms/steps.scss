@@ -1,0 +1,12 @@
+.o-steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.o-steps__content {
+    margin-top: 72px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
