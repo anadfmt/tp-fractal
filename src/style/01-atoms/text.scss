@@ -2,12 +2,15 @@
     color: var(--colorText);
     font-size: var(--fontSizeBody);
     font-family: var(--fontFamilyBody);
+    line-height: var(--lineHeightMain);
 }
 
 .a-text--title1 {
     color: var(--colorText); // couleur noir parce que sinon blanc se voit pas
-    font-size: var(--fontSizeH1);
+    font-size: var(--fontSizeH1XL);
     font-family: var(--fontFamilyTitle);
+    line-height: var(--lineHeightH1);
+    margin-bottom: 48px;
 }
 
 .a-text--title2 {

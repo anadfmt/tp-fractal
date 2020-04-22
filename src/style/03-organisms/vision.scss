@@ -1,0 +1,16 @@
+.o-vision {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.o-vision__image {
+    width: 40%;
+}
+
+.o-vision__content {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    text-align: left;
+}

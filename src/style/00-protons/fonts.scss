@@ -17,6 +17,7 @@
   --fontFamilyTitle: "Playfair Display"; 
   --fontFamilyBody: "SF UI Display", serif;
 
+  --fontSizeH1XL: 80px;
   --fontSizeH1: 42px;
   --fontSizeH2: 32px;
   --fontSizeH3: 28px;
@@ -26,8 +27,17 @@
   --fontSizeFooter: 16px;
   --fontSizeButton: 16px;
 
+  --fontSizeH1XLMobile: 32px;
+  --fontSizeH1Mobile: 32px;
+  --fontSizeH2Mobile: 24px;
+  --fontSizeH3Mobile: 24px;
+  --fontSizeBodyMobile: 18px;
+
   --fontWeightBold: bold;
 
   --lineHeightMain: 36px;
   --lineHeightH1: 90px;
+
+  --lineHeightMainMobile: 22px;
+  --lineHeightH1Mobile: 36px;
 }

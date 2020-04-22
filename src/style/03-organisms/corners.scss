@@ -1,0 +1,11 @@
+.o-corners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.o-corners__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+}

@@ -24,7 +24,9 @@
     color: #ffffff;
 }
 
-.a-button--secondary {
+// Bouton secondaire rose 
+
+.a-button--secondaryPink {
     font-family: var(--fontFamilyBody);
     font-size: var(--fontSizeButton);
     background-color: #ffffff;
@@ -39,9 +41,61 @@
     }
 }
 
-.a-button--secondary__link {
+.a-button--secondaryPink__link {
     text-decoration: none;
     color: var(--colorPink);
+
+    &:hover {
+        color: #ffffff;
+    }
+}
+
+// Bouton secondaire violet
+
+.a-button--secondaryPurple {
+    font-family: var(--fontFamilyBody);
+    font-size: var(--fontSizeButton);
+    background-color: #ffffff;
+    border: 1px solid var(--colorPurple);
+    border-radius: 3px;
+    padding: 10px 32px;
+    font-weight: var(--fontWeightBold);
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--colorPurple);
+    }
+}
+
+.a-button--secondaryPurple__link {
+    text-decoration: none;
+    color: var(--colorPurple);
+
+    &:hover {
+        color: #ffffff;
+    }
+}
+
+// Bouton secondaire bleu
+
+.a-button--secondaryBlue {
+    font-family: var(--fontFamilyBody);
+    font-size: var(--fontSizeButton);
+    background-color: #ffffff;
+    border: 1px solid var(--colorBlue);
+    border-radius: 3px;
+    padding: 10px 32px;
+    font-weight: var(--fontWeightBold);
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--colorBlue);
+    }
+}
+
+.a-button--secondaryBlue__link {
+    text-decoration: none;
+    color: var(--colorBlue);
 
     &:hover {
         color: #ffffff;

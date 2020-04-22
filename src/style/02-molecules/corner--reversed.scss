@@ -1,16 +1,17 @@
-.o-presentation {
+.m-corner--reversed {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.o-presentation__content {
+.m-corner__content--reversed {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
     width: 55%;
-    text-align: left;
+    text-align: right;
 }
 
-.o-presentation__image {
+.m-corner__image {
     width: 40%;
 }

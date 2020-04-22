@@ -4,13 +4,13 @@
     align-items: center;
 }
 
-.m-corner--content {
+.m-corner__content {
     display: flex;
     flex-direction: column;
     width: 55%;
     text-align: left;
 }
 
-.m-corner--image {
+.m-corner__image {
     width: 40%;
 }
