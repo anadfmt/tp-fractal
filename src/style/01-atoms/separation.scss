@@ -1,5 +1,9 @@
 .a-separation {
-    width: 112px;
+    width: 40px;
     margin-top: 8px;
     margin-bottom: 24px;
+
+    @include medium {
+        width: 112px;
+    }
 }

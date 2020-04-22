@@ -1,6 +1,10 @@
 .a-button {
-    width: 220px;
-    margin-top: 32px;
+    width: 168px;
+    margin-top: 16px;
+    @include medium {
+        width: 220px;
+        margin-top: 32px;
+    }
 }
 
 .a-button--primary {

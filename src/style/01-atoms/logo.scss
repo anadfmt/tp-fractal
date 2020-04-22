@@ -1,3 +1,8 @@
 .a-logo {
-    width: 100%;
+    width: 148px;
+    height: 68px;
+    @include medium {
+        width: 192px;
+        height: 88px;
+    }
 }

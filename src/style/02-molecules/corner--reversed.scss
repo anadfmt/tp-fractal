@@ -10,8 +10,15 @@
     align-items: flex-end;
     width: 55%;
     text-align: right;
+    margin-top: 48px;
+    margin-bottom: 48px;
 }
 
-.m-corner__image {
-    width: 40%;
+.m-corner__image--reversed {
+    display: none;
+
+    @include medium {
+        display: block;
+        width: 40%;
+    }
 }

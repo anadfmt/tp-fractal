@@ -12,5 +12,9 @@
 }
 
 .o-presentation__image {
-    width: 40%;
+    display: none;
+    @include medium {
+        display: block;
+        width: 40%;
+    }
 }
