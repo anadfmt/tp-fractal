@@ -14,14 +14,14 @@
 }
 
 .a-text--title1 {
-    color: var(--colorText); // couleur noir parce que sinon blanc se voit pas
+    color: #fcfcfc; // couleur noir parce que sinon blanc se voit pas
     font-size: var(--fontSizeH1XLMobile);
     font-family: var(--fontFamilyTitle);
     line-height: var(--lineHeightH1Mobile);
     margin-bottom: 24px;
 
     @include medium {
-        color: var(--colorText); // couleur noir parce que sinon blanc se voit pas
+        color: #fcfcfc; // couleur noir parce que sinon blanc se voit pas
         font-size: var(--fontSizeH1XL);
         font-family: var(--fontFamilyTitle);
         line-height: var(--lineHeightH1);

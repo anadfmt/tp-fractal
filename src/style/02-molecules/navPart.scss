@@ -12,7 +12,7 @@
     display: block;
     content: "";
     height: 4px;
-    background: black; // mettre en blanc
+    background: #fcfcfc; // mettre en blanc
     position: absolute;
     top: -10px;
     width: 100%;
@@ -21,6 +21,7 @@
     opacity: 50%;
   }
   .list-item {
+    padding: 0px 32px;
     &-active {
       position: relative;
       &:before {
@@ -31,7 +32,7 @@
         height: 4px;
         width: 100%;
         left: 0;
-        background: black; // mettre en blanc
+        background: #fcfcfc; // mettre en blanc
       }
     }
   }
