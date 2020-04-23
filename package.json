@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "rm -rf dist ./cache && parcel src/index.html",
+    "dev": "parcel src/index.html --no-cache",
     "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "fractal": "cd styleguide && fractal start --sync",
