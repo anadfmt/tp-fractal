@@ -12,14 +12,15 @@
     display: block;
     content: "";
     height: 4px;
-    background: red;
+    background: black; // mettre en blanc
     position: absolute;
     top: -10px;
     width: 100%;
     left: 0;
     right: 0;
+    opacity: 50%;
   }
-  &-item {
+  .list-item {
     &-active {
       position: relative;
       &:before {
@@ -30,7 +31,7 @@
         height: 4px;
         width: 100%;
         left: 0;
-        background: blue;
+        background: black; // mettre en blanc
       }
     }
   }
