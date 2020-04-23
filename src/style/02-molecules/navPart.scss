@@ -1,35 +1,36 @@
 .nav {
-  .m-navPart {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    &:before {
-      display: block;
-      content: "";
-      height: 4px;
-      background: red;
-      position: absolute;
-      top: -10px;
-      width: 100%;
-      left: 0;
-      right: 0;
-    }
-    &-item {
-      &-active {
-        position: relative;
-        &:before {
-          position: absolute;
-          top: -10px;
-          content: "";
-          display: block;
-          height: 4px;
-          width: 100%;
-          left: 0;
-          background: blue;
-        }
+  margin: 20px 0;
+}
+.m-navPart {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  &:before {
+    display: block;
+    content: "";
+    height: 4px;
+    background: red;
+    position: absolute;
+    top: -10px;
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+  &-item {
+    &-active {
+      position: relative;
+      &:before {
+        position: absolute;
+        top: -10px;
+        content: "";
+        display: block;
+        height: 4px;
+        width: 100%;
+        left: 0;
+        background: blue;
       }
     }
   }
