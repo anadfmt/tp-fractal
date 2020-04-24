@@ -1,21 +1,29 @@
 .o-vision {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .o-vision__image {
-    display: none;
-    
-    @include medium {
-        display: block;
-        width: 40%;
-    }
+  display: none;
+
+  @include medium {
+    display: block;
+    width: 40%;
+  }
 }
 
 .o-vision__content {
-    display: flex;
-    flex-direction: column;
-    width: 55%;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  text-align: left;
+}
+
+.o-vision__content--text {
+  margin-top: 24px;
+}
+
+.o-vision__content--button {
+  margin-top: 40px;
 }

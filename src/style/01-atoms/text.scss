@@ -12,6 +12,18 @@
   }
 }
 
+.a-text-footer {
+  color: var(--colorWhite);
+  font-size: var(--fontSizeFooter);
+  font-family: var(--fontFamilyBody);
+
+  @include medium {
+    color: var(--colorWhite);
+    font-size: var(--fontSizeFooter);
+    font-family: var(--fontFamilyBody);
+  }
+}
+
 .a-text--titleXL {
   color: var(--colorText);
   font-size: var(--fontSizeXLMobile);

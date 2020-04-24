@@ -1,1 +1,35 @@
-
+<footer class="o-footer">
+    <div class="o-footer__up">
+        {{> @logo}}
+        <div class="o-footer__list">
+        <ul>
+            <li>{{> @link}}</li>
+            <li>{{> @link}}</li>
+            <li>{{> @link}}</li>
+            <li>{{> @link}}</li>
+        </ul>
+        <ul>
+            <li>{{> @link}}</li>
+            <li>{{> @link}}</li>
+        </ul>
+        <ul class="o-footer__medias">
+            <li>{{> @icon}}</li>
+            <li>{{> @icon}}</li>
+            <li>{{> @icon}}</li>
+        </ul>
+        </div>
+        {{> @icon}}
+    </div>
+    <div class="o-footer__down">
+        <div class="o-footer__down--copyright">
+            {{> @text--footer}}
+            {{> @icon}}
+            {{> @text--footer}}
+        </div>
+        <div class="o-footer__down--policy">
+            {{> @text--footer}}
+            {{> @text--footer}}
+            {{> @text--footer}}
+        </div>
+    </div>
+</footer>   
