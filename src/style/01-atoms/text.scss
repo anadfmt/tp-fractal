@@ -12,7 +12,7 @@
   }
 }
 
-.a-text-footer {
+.a-text--footer {
   color: var(--colorWhite);
   font-size: var(--fontSizeFooter);
   font-family: var(--fontFamilyBody);
@@ -28,11 +28,13 @@
   color: var(--colorWhite);
   font-size: var(--fontSizeH1Mobile);
   font-family: var(--fontFamilyTitle);
+  font-weight: var(--fontWeightBold);
 
   @include medium {
     color: var(--colorWhite);
     font-size: var(--fontSizeH1);
     font-family: var(--fontFamilyTitle);
+    font-weight: var(--fontWeightBold);
   }
 }
 

@@ -9,40 +9,105 @@
 
 .o-footer__up {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
   width: 100%;
-  margin-top: 180px;
+  justify-content: space-around;
+  margin-top: 200px;
+
+  @include medium {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 180px;
+  }
 }
 
 .o-footer__list {
   display: flex;
-  justify-content: space-around;
-  width: 584px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+
+  @include medium {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 584px;
+  }
+
+}
+
+.o-footer__list--margin {
+  margin-top: 8px;
+  @include medium {
+    margin-top: 16px;
+  }
+}
+
+.o-footer__list--space {
+  margin-top: 8px;
+  @include medium {
+    margin-top: 0px;
+  }
 }
 
 .o-footer__medias {
   display: flex;
-  justify-content: space-between;
-  width: 198px;
+  margin-top: 16px;
+  @include medium {
+    display: flex;
+    justify-content: space-between;
+    width: 198px;
+  }
+
 }
 
 .o-footer__down {
   display: flex;
+  flex-direction: column;
   background-color: #fd7c81;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
-  margin-top: 56px;
+
+  @include medium {
+    display: flex;
+    flex-direction: row;
+    background-color: #fd7c81;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 56px;
+  }
+
 }
 
 .o-footer__down--copyright {
   display: flex;
-  justify-content: space-around;
-  width: 100%;
+  margin-top: 16px;
+  @include medium {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin-bottom: 16px;
+  }
+
 }
 
 .o-footer__down--policy {
   display: flex;
-  justify-content: space-around;
-  width: 40%;
+  flex-direction: column;
+  margin-bottom: 16px;
+  justify-content: space-between;
+  @include medium {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    margin-top: 18px;
+  }
 }

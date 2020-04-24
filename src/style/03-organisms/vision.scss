@@ -1,6 +1,6 @@
 .o-vision {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -9,14 +9,15 @@
 
   @include medium {
     display: block;
-    width: 40%;
+    width: 30%;
+    margin-left: 100px;
   }
 }
 
 .o-vision__content {
   display: flex;
   flex-direction: column;
-  width: 55%;
+  width: 40%;
   text-align: left;
 }
 

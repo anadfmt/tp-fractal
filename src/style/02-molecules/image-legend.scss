@@ -6,9 +6,11 @@
     margin: 24px;
 }
 
-.m-image-legend--espace {
+.m-image-legend--espace > p {
     margin-top: 16px;
+    text-align: center;
     @include medium {
         margin-top: 28px;
+        text-align: center;
     }
 }

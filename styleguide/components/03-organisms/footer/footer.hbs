@@ -4,13 +4,13 @@
         <div class="o-footer__list">
         <ul>
             <li>{{> @link}}</li>
-            <li>{{> @link}}</li>
-            <li>{{> @link}}</li>
-            <li>{{> @link}}</li>
+            <li class="o-footer__list--margin">{{> @link}}</li>
+            <li class="o-footer__list--margin">{{> @link}}</li>
+            <li class="o-footer__list--margin">{{> @link}}</li>
         </ul>
-        <ul>
+        <ul class="o-footer__list--space">
             <li>{{> @link}}</li>
-            <li>{{> @link}}</li>
+            <li class="o-footer__list--margin">{{> @link}}</li>
         </ul>
         <ul class="o-footer__medias">
             <li>{{> @icon}}</li>
@@ -23,13 +23,11 @@
     <div class="o-footer__down">
         <div class="o-footer__down--copyright">
             {{> @text--footer}}
-            {{> @icon}}
-            {{> @text--footer}}
         </div>
         <div class="o-footer__down--policy">
             {{> @text--footer}}
-            {{> @text--footer}}
-            {{> @text--footer}}
+            <span class="o-footer__list--space">{{> @text--footer}}</span>
+            <span class="o-footer__list--space">{{> @text--footer}}</span>
         </div>
     </div>
 </footer>   
