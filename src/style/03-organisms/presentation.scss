@@ -1,20 +1,24 @@
 .o-presentation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .o-presentation__content {
-    display: flex;
-    flex-direction: column;
-    width: 55%;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  text-align: left;
+}
+
+.o-presentation__button--margin {
+  margin-top: 48px;
 }
 
 .o-presentation__image {
-    display: none;
-    @include medium {
-        display: block;
-        width: 40%;
-    }
+  display: none;
+  @include medium {
+    display: block;
+    width: 40%;
+  }
 }

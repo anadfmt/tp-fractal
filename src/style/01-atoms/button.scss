@@ -1,3 +1,27 @@
+.a-button--login {
+  display: inline-block;
+  font-family: var(--fontFamilyBody);
+  font-size: var(--fontSizeButton);
+  background-color: var(--colorBlue);
+  border: none;
+  border-radius: 3px;
+  padding: 18px 32px;
+  font-weight: var(--fontWeightBold);
+  text-decoration: none;
+  color: var(--colorWhite);
+  text-align: center;
+  width: 158px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #11b0b3;
+  }
+
+  @include medium {
+    display: none;
+  }
+}
+
 .a-button--primary {
   display: inline-block;
   font-family: var(--fontFamilyBody);
@@ -9,10 +33,16 @@
   font-weight: var(--fontWeightBold);
   text-decoration: none;
   color: var(--colorWhite);
+  text-align: center;
+  width: 200px;
   cursor: pointer;
 
   &:hover {
     background-color: #11b0b3;
+  }
+
+  @include medium {
+    width: 254px;
   }
 }
 

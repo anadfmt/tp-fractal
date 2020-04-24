@@ -1,38 +1,33 @@
 .nav {
   margin: 20px 0;
+  width: 1200px;
 }
 .m-navPart {
   display: flex;
   list-style: none;
   justify-content: space-between;
   position: relative;
-  margin: 0;
-  padding: 0;
   &:before {
     display: block;
     content: "";
     height: 4px;
-    background: #fcfcfc; // mettre en blanc
+    background: var(--colorWhite);
     position: absolute;
-    top: -10px;
+    top: -16px;
     width: 100%;
-    left: 0;
-    right: 0;
     opacity: 50%;
   }
   .list-item {
-    padding: 0px 32px;
     &-active {
       position: relative;
       &:before {
         position: absolute;
-        top: -10px;
+        top: -16px;
         content: "";
         display: block;
         height: 4px;
         width: 100%;
-        left: 0;
-        background: #fcfcfc; // mettre en blanc
+        background: var(--colorWhite);
       }
     }
   }
