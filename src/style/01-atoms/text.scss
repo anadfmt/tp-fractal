@@ -1,54 +1,53 @@
 .a-text--body {
+  color: var(--colorText);
+  font-size: var(--fontSizeBodyMobile);
+  font-family: var(--fontFamilyBody);
+  line-height: var(--lineHeightMainMobile);
+
+  @include medium {
     color: var(--colorText);
-    font-size: var(--fontSizeBodyMobile);
+    font-size: var(--fontSizeBody);
     font-family: var(--fontFamilyBody);
-    line-height: var(--lineHeightMainMobile);
+    line-height: var(--lineHeightMain);
+  }
+}
 
-    @include medium {
-        color: var(--colorText);
-        font-size: var(--fontSizeBody);
-        font-family: var(--fontFamilyBody);
-        line-height: var(--lineHeightMain);
-    }
+.a-text--titleXL {
+  color: var(--colorText);
+  font-size: var(--fontSizeXLMobile);
+  font-family: var(--fontFamilyTitle);
+  line-height: var(--lineHeightH1Mobile);
+  margin-bottom: 24px;
 
+  @include medium {
+    color: var(--colorText);
+    font-size: var(--fontSizeXL);
+    font-family: var(--fontFamilyTitle);
+    line-height: var(--lineHeightH1);
+    margin-bottom: 48px;
+  }
 }
 
 .a-text--title1 {
-    color: var(--colorText); // couleur noir parce que sinon blanc se voit pas
-    font-size: var(--fontSizeH1XLMobile);
-    font-family: var(--fontFamilyTitle);
-    line-height: var(--lineHeightH1Mobile);
-    margin-bottom: 24px;
+  color: var(--colorBlue);
+  font-size: var(--fontSizeH1Mobile);
+  font-family: var(--fontFamilyTitle);
 
-    @include medium {
-        color: var(--colorText); // couleur noir parce que sinon blanc se voit pas
-        font-size: var(--fontSizeH1XL);
-        font-family: var(--fontFamilyTitle);
-        line-height: var(--lineHeightH1);
-        margin-bottom: 48px;
-    }
+  @include medium {
+    color: var(--colorBlue);
+    font-size: var(--fontSizeH1);
+    font-family: var(--fontFamilyTitle);
+  }
 }
 
 .a-text--title2 {
-    color: var(--colorBlue);
-    font-size: var(--fontSizeH2Mobile);
+  color: var(--colorPink);
+  font-size: var(--fontSizeH2Mobile);
+  font-family: var(--fontFamilyTitle);
+
+  @include medium {
+    color: var(--colorPink);
+    font-size: var(--fontSizeH2);
     font-family: var(--fontFamilyTitle);
-
-    @include medium {
-        color: var(--colorBlue);
-        font-size: var(--fontSizeH2);
-        font-family: var(--fontFamilyTitle);
-    }
-}
-
-.a-text--title3 {
-    color: var(--colorPurple); // couleur change selon titre
-    font-size: var(--fontSizeH3Mobile);
-    font-family: var(--fontFamilyTitle);
-
-    @include medium {
-        color: var(--colorPurple); // couleur change selon titre
-        font-size: var(--fontSizeH3);
-        font-family: var(--fontFamilyTitle);
-    }
+  }
 }

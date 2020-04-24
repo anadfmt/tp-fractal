@@ -1,9 +1,9 @@
 .a-separation {
-    width: 40px;
-    margin-top: 8px;
-    margin-bottom: 24px;
+  width: 10px;
+  height: 58px;
 
-    @include medium {
-        width: 112px;
-    }
+  @include medium {
+    width: 112px;
+    height: 19px;
+  }
 }

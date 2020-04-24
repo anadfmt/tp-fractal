@@ -1,4 +1,11 @@
 .m-corner-title {
-    display: flex;
-    margin-bottom: 32px;
+  display: flex;
+  margin-bottom: 32px;
+  align-items: center;
+  justify-content: space-between;
+  width: 116px;
+
+  @include medium {
+    width: 200px;
+  }
 }

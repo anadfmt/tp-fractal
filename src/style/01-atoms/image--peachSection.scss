@@ -1,10 +1,9 @@
 .a-image--peachSection {
-    width: 18px;
-    height: 18px;
-    margin-right: 16px;
-    
-    @include medium {
-        width: 32px;
-        height: 32px;
-    }
+  width: 18px;
+  height: 18px;
+
+  @include medium {
+    width: 32px;
+    height: 32px;
+  }
 }

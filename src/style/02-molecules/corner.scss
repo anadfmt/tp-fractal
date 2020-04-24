@@ -1,21 +1,28 @@
 .m-corner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .m-corner__content {
-    display: flex;
-    flex-direction: column;
-    width: 55%;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.m-corner__button {
+  margin-top: 16px;
+
+  @include medium {
+    margin-top: 32px;
+  }
 }
 
 .m-corner__image {
-    display: none;
+  display: none;
 
-    @include medium {
-        display: block;
-        width: 40%;
-    }
+  @include medium {
+    display: block;
+    width: 40%;
+  }
 }

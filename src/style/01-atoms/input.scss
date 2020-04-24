@@ -1,18 +1,16 @@
 .a-input {
-    width: 300px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+  width: 300px;
+  padding: 16px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 
-    @include medium {
-        width: 600px;
-
-    }
+  @include medium {
+    width: 600px;
+  }
 }
 
 input::placeholder {
-    color: #CCCCCC;
-    font-family: var(--fontFamilyBody);
+  color: #cccccc;
+  font-family: var(--fontFamilyBody);
 }

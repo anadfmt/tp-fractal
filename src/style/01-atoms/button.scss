@@ -1,107 +1,99 @@
-.a-button {
-    width: 168px;
-    margin-top: 16px;
-    @include medium {
-        width: 220px;
-        margin-top: 32px;
-    }
-}
+//B Bouton primaire
 
 .a-button--primary {
-    // forme bouton
-    font-family: var(--fontFamilyBody);
-    font-size: var(--fontSizeButton);
-    background-color: var(--colorBlue);
-    border: none;
-    border-radius: 3px;
-    padding: 10px 32px;
-    font-weight: var(--fontWeightBold);
-    cursor: pointer;
+  display: inline-block;
+  font-family: var(--fontFamilyBody);
+  font-size: var(--fontSizeButton);
+  background-color: var(--colorBlue);
+  border: none;
+  border-radius: 3px;
+  padding: 18px 32px;
+  font-weight: var(--fontWeightBold);
+  text-decoration: none;
+  color: var(--colorWhite);
+  cursor: pointer;
 
-    &:hover {
-        background-color: #11B0B3;
-    }
+  &:hover {
+    background-color: #11b0b3;
+  }
 }
 
-.a-button--primary__link {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-// Bouton secondaire rose 
+// Bouton secondaire rose
 
 .a-button--secondaryPink {
-    font-family: var(--fontFamilyBody);
-    font-size: var(--fontSizeButton);
-    background-color: #ffffff;
-    border: 1px solid var(--colorPink);
-    border-radius: 3px;
-    padding: 10px 32px;
-    font-weight: var(--fontWeightBold);
-    cursor: pointer;
+  display: inline-block;
+  font-family: var(--fontFamilyBody);
+  font-size: var(--fontSizeButton);
+  background-color: var(--colorWhite);
+  border: 2px solid var(--colorPink);
+  border-radius: 3px;
+  text-align: center;
+  padding: 16px;
+  font-weight: var(--fontWeightBold);
+  text-decoration: none;
+  color: var(--colorPink);
+  width: 168px;
+  cursor: pointer;
 
-    &:hover {
-        background-color: var(--colorPink);
-    }
-}
+  &:hover {
+    background-color: var(--colorPink);
+    color: var(--colorWhite);
+  }
 
-.a-button--secondaryPink__link {
-    text-decoration: none;
-    color: var(--colorPink);
-
-    &:hover {
-        color: #ffffff;
-    }
+  @include medium {
+    width: 218px;
+  }
 }
 
 // Bouton secondaire violet
 
 .a-button--secondaryPurple {
-    font-family: var(--fontFamilyBody);
-    font-size: var(--fontSizeButton);
-    background-color: #ffffff;
-    border: 1px solid var(--colorPurple);
-    border-radius: 3px;
-    padding: 10px 32px;
-    font-weight: var(--fontWeightBold);
-    cursor: pointer;
+  display: inline-block;
+  font-family: var(--fontFamilyBody);
+  font-size: var(--fontSizeButton);
+  background-color: var(--colorWhite);
+  border: 2px solid var(--colorPurple);
+  border-radius: 3px;
+  text-align: center;
+  padding: 16px;
+  font-weight: var(--fontWeightBold);
+  text-decoration: none;
+  color: var(--colorPurple);
+  width: 168px;
+  cursor: pointer;
 
-    &:hover {
-        background-color: var(--colorPurple);
-    }
-}
+  &:hover {
+    background-color: var(--colorPurple);
+    color: var(--colorWhite);
+  }
 
-.a-button--secondaryPurple__link {
-    text-decoration: none;
-    color: var(--colorPurple);
-
-    &:hover {
-        color: #ffffff;
-    }
+  @include medium {
+    width: 218px;
+  }
 }
 
 // Bouton secondaire bleu
 
 .a-button--secondaryBlue {
-    font-family: var(--fontFamilyBody);
-    font-size: var(--fontSizeButton);
-    background-color: #ffffff;
-    border: 1px solid var(--colorBlue);
-    border-radius: 3px;
-    padding: 10px 32px;
-    font-weight: var(--fontWeightBold);
-    cursor: pointer;
+  font-family: var(--fontFamilyBody);
+  font-size: var(--fontSizeButton);
+  background-color: var(--colorWhite);
+  border: 2px solid var(--colorBlue);
+  border-radius: 3px;
+  text-align: center;
+  padding: 16px;
+  font-weight: var(--fontWeightBold);
+  text-decoration: none;
+  color: var(--colorBlue);
+  width: 142px;
+  cursor: pointer;
 
-    &:hover {
-        background-color: var(--colorBlue);
-    }
-}
+  &:hover {
+    background-color: var(--colorBlue);
+    color: var(--colorWhite);
+  }
 
-.a-button--secondaryBlue__link {
-    text-decoration: none;
-    color: var(--colorBlue);
-
-    &:hover {
-        color: #ffffff;
-    }
+  @include medium {
+    width: 188px;
+  }
 }
