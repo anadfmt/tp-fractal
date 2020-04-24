@@ -1,16 +1,24 @@
 .o-corners {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .o-corners__content {
-    display: flex;
-    flex-direction: column;
-    margin-top: 72px;
-    width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 72px;
+  width: 300px;
 
-    @include medium {
-        width: 60%;
-    }
+  @include medium {
+    width: 80%;
+  }
+}
+
+.o-corners__content--margin {
+  margin-top: 48px;
+
+  @include medium {
+    margin-top: 0px;
+  }
 }

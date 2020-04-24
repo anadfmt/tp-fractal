@@ -2,8 +2,8 @@
     {{> @text-section}}
     <div class="o-corners__content">
         {{> @corner}}
-        {{> @corner--reversed}}
-        {{> @corner}}
-        {{> @corner--reversed}}
+        <span class="o-corners__content--margin">{{> @corner--reversed}}</span>
+        <span class="o-corners__content--margin">{{> @corner}}</span>
+        <span class="o-corners__content--margin">{{> @corner--reversed}}</span>
     </div>
 </div>
